@@ -1,0 +1,13 @@
+git add index.html ou para adicionar vários arquivos usamos git add .
+git commit -m "Frase qualquer"
+git status
+git hist (histórico das alterações)
+git push origin master
+
+(head -> é o ponteiro para o diretório).
+
+git checkout (dá um git hist, depois seleciona o item do historico, depois na linha de comando dá o comando git checkout +roda do mouse
+esse comando acima é pra voltar no tempo. 
+
+git checkout -b style_fix
+
