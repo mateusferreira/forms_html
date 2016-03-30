@@ -1,0 +1,60 @@
+<!Doctype html>
+<html>
+    <header>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <title>Meu formulário</title>
+    </header>
+    <body>
+        <div id ="PersonInfo">
+            <form class="formulario"
+                action = "http://labs.edysegura.com/requests/"
+                method="get">
+                <fieldset>
+                    <legend><h1>Informações Pessoais</h1></legend>
+                    <label class="lb">Nome:</label>
+                    <input class="formfield" type="text" name="nome"><br/>
+                    <label class = "lb">Endereço:</label>
+                    <input class="formfield" type = "text" name="Endereco"><br/>
+                    <label class = "lb">Cidade:</label>
+                    <input class="formfield" type = "text" name="Cidade"><br/>
+                    <p>...mais informações pessoais...</p>
+                </fieldset>
+                <br/>
+                <fieldset>
+                    <legend><h1>Histórico Médico</h1></legend>
+                    <label class="lb">Varíola:</label>
+                    <input type="checkbox" name="doenças" value="variola" class="formfield"><br>
+                    <label class="lb">Caxumba:</label>
+                    <input type="checkbox" name="doenças" value="Caxumba" class="formfield"><br>
+                    <label class="lb">Tonturas:</label>
+                    <input type="checkbox" name="doenças" value="tonturas" class="formfield"><br>
+                    <label class="lb">Espirros:</label>
+                    <input type="checkbox" name="doenças" value="espirros" class="formfield"><br>
+                    <p>...mais detalhes do histórico médico...</p>
+                    
+                    <fieldset>
+                    <legend><h1>Opções</h1></legend>
+                    <select>
+                        <option value="cg1a" selected="selected" class="lb">cg1a</option>
+                        <option value="cg1b">cg1b</option>
+                        <option value="cg1c">cg1c</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend><h1>Medicação Atual</h1></legend>
+                    <p>...atualmente faz uso de algum medicamento?</p>
+                    <label class="lb">Sim:</label>
+                    <input type="radio" name="medicamento" value="sim" class="formfield"><br>
+                    <label class="lb">Não:</label>
+                    <input type="radio" name="medicamento" value="nao" class="formfield"><br>
+                    <p>...se faz uso de algum medicamento, informe-o no espaço abaixo:</p>
+                </fieldset>
+                
+                    
+                <input type="submit" name="Enviar">
+            </form>
+        </div>
+       
+    </body>
+</html>
